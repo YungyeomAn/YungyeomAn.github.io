@@ -58,9 +58,9 @@ Insight:
 
 1. CSC
 Research overview
-title: Programmable 
-keywords: out-of-equilibrium / systems chemistry / spatiotemporal / audible sound / Faraday waves / patterns / supramolecular chemistry / self-assembly / materials chemistry
-Spatiotemporal patterns, Out-of-equilibrium systems, Chemical pattern formation, Self-assembly, Dissipative structures.
+title: Programmable spatiotemporal control of non-equilibrium chemical process.
+keywords: out-of-equilibrium / systems chemistry / spatiotemporal patterns / audible sound / Faraday waves / supramolecular chemistry / self-assembly / materials chemistry / Chemical pattern formation / Dissipative structures
+-
 
 (내용)
 description: 2-3 문장, 내 역할
