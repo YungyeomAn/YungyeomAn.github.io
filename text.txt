@@ -95,12 +95,14 @@ keywords: Chemical physics, Structural Heterogeneity, Infrared spectroscopy,  Mo
 2) approach/method/과정(시뮬레이션 결과 같은 거)
 -물 분자간의 intermolecular coupling을 없애기 위해 DMF에 물을 n%로 희석시켰으며, intermolecular coupling을 파악하기 위해 HOD, D2O 두 종류의 물의 스펙트럼을 측정했습니다. 본 프로젝트는 위 선행연구의 일부로서 추가적인 분석이 이뤄질 수 있도록, 같은 조건에서 진행하였습니다.
 -Temperature dependant ir spectra (기기사진, 스펙트럼 사진)
-우선 수소결합 네트워크에 대한 thermal fluctuation의 영향을 확인하기 위해서 단열 윈도우 장비를 이용해 25도부터 65도까지 10도 간격으로 온도 변화에 따른 HOD와 D2O희석액의 FTIR 스펙트럼을 측정했습니다. HOD와 D2O 희석액의 IR 스펙트럼을 분석하면 () nm 파장 부근에서 선명한 O-D stretching mode를 관찰할 수 있으며, 이 peak의 FHWM 등을 분석했습니다.
--md simulation -> analysis / -modeling a vibrational spectra of water
-
+우선 수소결합 네트워크에 대한 thermal fluctuation의 영향을 확인하기 위해서 단열 윈도우 장비를 이용해 25도부터 65도까지 10도 간격으로 온도 변화에 따른 HOD와 D2O희석액의 FTIR 스펙트럼을 측정했습니다. HOD in DMF와 D2O in DMF의 IR 스펙트럼을 분석하면 () nm 파장 부근에서 선명한 O-D stretching mode를 관찰할 수 있으며, 이 peak를 분석했습니다.
+-md simulation -> analysis / -modeling a vibrational spectra of water (시뮬레이션 사진, 
+이 시스템을 classical atomic molecular dynamis simulation으로 모델링했습니다. (이런 세부 조건을 넣어야 할까? 아니면 그냥 내 데이터 정리 슬라이드가 있는데 이거를 pdf로 만들어서 첨부를 해둘까? Periodic condition, cubic box with length of 40 amstrong including 500 moleculs(475 DMF and 25 water molecules, Forcefield: SPCE for water and OPLS, NVE ensembles at the 온도 of 25도 - 65도 10도 간격 각 시뮬, bonds of water are set to be flexible, Bussi-Donadio-parrinello thermostat, berendson barostat to 1 bar, cut-off range of 10 omstrong, time step of 2 fs, 1 ns productions. polarizable water model에 관한 시뮬레이션 또한 시행)
+물 모델은 SPCE와 SWM4NDP를 사용했습니다. radial distribution function, number of hydrogen bonds of each water, hydrogen bond distances를 계산해 모델을 검증하고 수소결합의 asymmetry를 분석했고, velocity data를 활용해 vibrational spectra를 modeling해 FTIR의 결과와 비교했습니다.
 
 3) key findings & insights
 -FTIR 결과 및 modeling 결과 (non bonding molecule의 spectra 영향력? - 낮은 온도에서는 영향이 좀 덜함.)
+가우시안 피팅결과 그림 첨부. skewed 그래프 설명.
 -asymmetry parameter and non-bound hydrogens in water
 -anti-correlation 재현 (in md simulation)
 
@@ -113,8 +115,19 @@ keywords: Molecular dynamics simulation / ion adsorption / aqueous(?) interfaces
 -Image charge effect is a fundamental problem in electrostatics. However, a proper treatment at the continuum level for many-ion systems, such as electrolyte solutions or ionic liquids, remains an open theoretical question.
 -Understanding electrostatic interactions across interfaces is of critical importance in energy storage devices and biological science. We study the adsorption of salt ions on aqueous interfaces using molecular dynamics simulations, applying an efficient algorithm that enables us to systematically control the effect of surface, solvent, and solute polarization. In the absence of applied potential difference, the image-charge attraction of the ions predicted by continuum electrostatics is shown to be screened out by the solvating water molecules, resulting in no appreciable difference in the ion profiles near a metal surface vs. a nonpolarizable surface. However, the metal surfaces promote significantly enhanced fluctuation in, and magnitude of, the charge separation across the confined electrolyte, leading to greater capacitance under applied electric field.
 -Continuum electrostatics predicts that ions will be attracted to conducting electrodes but repelled by surfaces with lower dielectric constant than the solvent. However, several recent studies found that certain “chaotropic” ions have similar adsorption behavior at air/water and graphene/water interfaces. Here we systematically study the effect of polarization of the surface, the solvent, and solutes on the adsorption of ions onto the electrode surfaces using molecular dynamics simulation. An efficient method is developed to treat an electrolyte system between two parallel conducting surfaces by exploiting the mirror-expanded symmetry of the exact image-charge solution. With neutral surfaces, the image interactions induced by the solvent dipoles and ions largely cancel each other, resulting in no significant net differences in the ion adsorption profile regardless of the surface polarity. Under an external electric field, the adsorption of ions is strongly affected by the surface polarization, such that the charge separation across the electrolyte and the capacitance of the cell is greatly enhanced with a conducting surface over a low-dielectric-constant surface. While the extent of ion adsorption is highly dependent on the electrolyte model (the polarizability of solvent and solutes, as well as the van der Waals radii), we find the effect of surface polarization on ion adsorption is consistent throughout different electrolyte models.
--교수님 연구 (image charge)
+
+
+Image charge effect is a fundamental concept in electrostatics, describing how charges interact with polarizable or conducting boundaries. While classical continuum electrostatics provides clear predictions for simple systems, its applicability to many-body systems such as electrolyte solutions and ionic liquids remains limited.
+Understanding electrostatic interactions at electrified interfaces is critically important for applications ranging from electrochemical energy storage to biological systems. In continuum theory, ions are expected to be attracted to conducting electrodes due to image charge interactions, while being repelled from low-dielectric surfaces. However, recent molecular-level studies suggest that such predictions can break down in realistic environments.
+In particular, under nanoscale confinement and applied electric fields, interfacial electrostatics are strongly influenced by ion correlations and surface polarization. Despite the growing demand for electrochemical energy storage technologies, a systematic understanding of how image charge effects manifest in ionic liquid systems—especially in comparison to continuum predictions and across different ion compositions—remains incomplete. In particular, the role of electrode polarization under applied voltage, and its coupling with ion structure and dynamics, is not fully resolved at the molecular level.
+
 -질문: 
+
+2) approach/method
+-교수님 연구 (image charge)
+-조건 설정, 시뮬레이션 돌린 거
+
+3) results & insights & 발전 포인트.
 
 *Role of image charges in ionic liquid confined between metallic interfaces 논문 참고
 
