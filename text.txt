@@ -78,22 +78,40 @@ synthetic supramolecular systems with lifelike properties
 4) 자료 링크
 
 2. MPIP
-title: dynamic asymmetry of water hydrogen bonds
-keywords: Chemical physics, Infrared spectroscopy, Molecular dynamics simulations, Liquid dynamics, water hydrogen bonds, non-covalent bond network, Structural Heterogeneity, intermolecular coupling
+title: dynamic anti-correlation and asymmetry of water hydrogen bonds
+keywords: Chemical physics, Structural Heterogeneity, Infrared spectroscopy,  Molecular dynamics simulations, Liquid dynamics, water hydrogen bonds, non-covalent bond network,  intermolecular coupling
 
 (내용)
 1) background
+-hydrogen bond network / microscopic structure and dynamics of water molecules 암튼 물 구조 규명의 중요성 (물 사면체 그림) + assymetry 이야기
+물은 다양한 생물학적, 화학적, 물리적 과정의 기반이 되지만, 대부분의 액체와는 다른 독특한 거동을 보인다. 이러한 특성은 강하고 방향성 있는 수소 결합 네트워크에서 기인한다. 전통적인 대칭 사면체 모델만으로는 액체 물의 구조적 이질성을 충분히 설명할 수 없다. 특히, 한 물 분자 내 두 수소 원자가 서로 다른 길이의 수소 결합을 형성할 수 있다는 점에서 물은 비대칭성을 가질 수 있으며, 이는 물의 이상적인 물성들과도 깊은 관련이 있다. 이러한 비대칭성은 시간적으로 요동하는 국소 배위 구조와 수소 결합 강도 간의 상관관계와 밀접하게 연결되어 있다. 이러한 구조적 상관관계는 열적 요동의 영향을 받아 그 공간적 및 시간적 범위가 제한된다. 그러나 이러한 비대칭성의 기원과 수소 결합 길이 간 상관관계에 대한 직접적이고 정량적인 내용과 기원에 관한 연구는 여전히 제한적이다.
+
+-루카스 논문 (그 4칸짜리 사진이랑 간단 설명 + 링크)
+-그래서 최종 목적(어떤 질문에 대답하고 싶은지)은 뭐냐!
 
 2) approach
+-Temperature dependant ir spectra
+-modeling a vibrational spectra of water
+-md simulation -> analysis
 
 3) key findings & insights
+-FTIR 결과 및 modeling 결과 (non bonding molecule의 spectra 영향력? - 낮은 온도에서는 영향이 좀 덜함.)
+-asymmetry parameter and non-bound hydrogens in water
+-anti-correlation 재현 (in md simulation)
 
 
 3. Sonlab
 title: Image charge effect on graphene-ionic liquid interface
 keywords: Molecular dynamics simulation / ion adsorption / aqueous(?) interfaces / electrochemical cell / image-charge method polarization
 
+1) background
+-Image charge effect is a fundamental problem in electrostatics. However, a proper treatment at the continuum level for many-ion systems, such as electrolyte solutions or ionic liquids, remains an open theoretical question.
+-Understanding electrostatic interactions across interfaces is of critical importance in energy storage devices and biological science. We study the adsorption of salt ions on aqueous interfaces using molecular dynamics simulations, applying an efficient algorithm that enables us to systematically control the effect of surface, solvent, and solute polarization. In the absence of applied potential difference, the image-charge attraction of the ions predicted by continuum electrostatics is shown to be screened out by the solvating water molecules, resulting in no appreciable difference in the ion profiles near a metal surface vs. a nonpolarizable surface. However, the metal surfaces promote significantly enhanced fluctuation in, and magnitude of, the charge separation across the confined electrolyte, leading to greater capacitance under applied electric field.
+-Continuum electrostatics predicts that ions will be attracted to conducting electrodes but repelled by surfaces with lower dielectric constant than the solvent. However, several recent studies found that certain “chaotropic” ions have similar adsorption behavior at air/water and graphene/water interfaces. Here we systematically study the effect of polarization of the surface, the solvent, and solutes on the adsorption of ions onto the electrode surfaces using molecular dynamics simulation. An efficient method is developed to treat an electrolyte system between two parallel conducting surfaces by exploiting the mirror-expanded symmetry of the exact image-charge solution. With neutral surfaces, the image interactions induced by the solvent dipoles and ions largely cancel each other, resulting in no significant net differences in the ion adsorption profile regardless of the surface polarity. Under an external electric field, the adsorption of ions is strongly affected by the surface polarization, such that the charge separation across the electrolyte and the capacitance of the cell is greatly enhanced with a conducting surface over a low-dielectric-constant surface. While the extent of ion adsorption is highly dependent on the electrolyte model (the polarizability of solvent and solutes, as well as the van der Waals radii), we find the effect of surface polarization on ion adsorption is consistent throughout different electrolyte models.
+-교수님 연구 (image charge)
+-질문: 
 
+*Role of image charges in ionic liquid confined between metallic interfaces 논문 참고
 
 4. Nanotrio
 
@@ -102,10 +120,11 @@ keywords: Molecular dynamics simulation / ion adsorption / aqueous(?) interfaces
 6. 
 
 <Personal>
--Journalism
-
-
-
+-저는 과학 커뮤니케이션과 저널리즘에 관심이 있습니다. 저는 포항공대신문사에서 취재부장, 편집장으로 일했습니다.
+You can find my articles (Korean) at THE POSTECH TIMES. (제가 포항공대신문사에서 쓴 기사들을 "링크"에서 확인하실 수 있습니다.)
+These are my representative articles. '노벨상 수장자 단 셰흐트만 인터뷰'(링크), 과학 기사(링크), '청소노동자'(링크), '제주 르포'(링크)
+-취미
+-teaching???: 일반화학/유기화학, 고등학생 프로젝트 멘토링, 중고등학생 수학/과학 지도.
 
 
 
