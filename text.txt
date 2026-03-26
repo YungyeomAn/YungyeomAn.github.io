@@ -10,7 +10,7 @@ I study Chemistry and Materials Science.
 I am ~ (특징이나 장점)
 
 <About me>
-
+I am a prospective PhD researcher interested in interfacial phenomena in polymer-based systems/molecular interactions at interfaces give rise to emergent properties in polymer and nanoscale system.
 
 
 <Experience Page>
@@ -77,9 +77,26 @@ stimuli-responsive with external stimuli (audible sound) -> infancy
 programmable spationemporal control of complex chemical patterns in reaction network systems
 synthetic supramolecular systems with lifelike properties
 
+Spatiotemporal pattern formation is a key feature of out-of-equilibrium chemical systems, underlying complex functions in biological and material systems. While artificial chemical and supramolecular systems can generate such patterns, they are typically governed by emergent dynamics, making it difficult to precisely control where and when chemical processes occur.
+Recently, we explored stimuli-responsive approaches using external fields such as audible sound, which can induce fluid vibrations and spatially modulate gas dissolution to form reproducible chemical patterns. However, this strategy is still in its early stages and remains limited in resolution, typically producing only simple domain structures with restricted tunability.
+Thus, a central challenge remains: achieving programmable spatiotemporal control over complex chemical patterns and life-like compartmentalization within a single system.
+
+Physical Basis
+
+Audible sound does not directly interact with molecules at the chemical level, but instead induces mechanical vibrations in fluids. When applied to a liquid interface, these vibrations generate standing wave patterns (Faraday waves), producing spatial variations in fluid motion.
+Such vibration fields influence the dissolution and transport of atmospheric gases (e.g., O₂ and CO₂) across the air–liquid interface, leading to spatially heterogeneous chemical environments. Recent studies have leveraged this principle to control out-of-equilibrium chemical reactions and generate reproducible spatiotemporal patterns.
+However, these approaches have largely relied on single-frequency excitation, limiting the complexity and programmability of the resulting chemical patterns.
+
+
 2) 방법/툴 등
 
+Approach
+We introduce a strategy to achieve programmable spatiotemporal control by using multi-frequency audible sound as a non-invasive external stimulus.
+Interference between mixed sound frequencies generates spatially structured vibration fields, which regulate the local dissolution of atmospheric gases and create distinct chemical environments within a homogeneous solution. As a result, multiple pH and redox domains can be dynamically programmed in space and time.
+This enables life-like compartmentalization of chemical processes, providing a platform for controlling out-of-equilibrium reactions and supramolecular systems with high spatial precision.
+
 3) key findings & insights
+
 
 4) 자료 링크
 
