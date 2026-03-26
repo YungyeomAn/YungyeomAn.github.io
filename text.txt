@@ -1,3 +1,9 @@
+*https://www.ideals.illinois.edu/items/139984 -> research portfolio 관련
+*https://github.com/cobiwave/simplefolio
+*https://github.com/adrianhajdin/portfolio_website
+*https://github.com/ashutosh1919/masterPortfolio
+*https://journeys.dartmouth.edu/dartwrite/example-portfolios-2/# -> 다트무스 대학교 포폴 예시
+
 <Home>
 Hi, I'm Yun-gyeom An.
 I study Chemistry and Materials Science.
