@@ -1,1 +1,112 @@
+<Home>
+Hi, I'm Yun-gyeom An.
+I study Chemistry and Materials Science.
+I am ~ (특징이나 장점)
+
+<About me>
+
+
+
+<Experience Page>
+[description]
+I have worked in many 
+
+1. CSC (location)
+(날짜) (기간)    (position)
+(요약) Led a project on programmable spatiotemporal control of supramolecular and polymer systems via life-like compartmentalization using audible sound.
+(자세한 내용)
+-presented a poster at the 130th General Meeting of Korean Chemical Society (아니면 National Conference?)
+-
+-Research overview (Click here to see details) //사진도 넣을 수 있으면 넣기
+Problem:
+Approach:
+Insight:
+
+2. SSM (location)
+(날짜) (기간)    (position)
+(요약) 
+(자세한 내용)
+-
+-Research overview (Click here to see details)
+
+3. MPIP (location)
+(날짜) (기간)    (position)
+(요약) 
+(자세한 내용)
+-
+-Research overview (Click here to see details)
+
+4. Son Lab (location)
+(날짜) (기간)    (position)
+(요약) 
+(자세한 내용)
+-
+-Research overview (Click here to see details)
+
+5. Nanotrio (location)
+(날짜) (기간)    (position)
+(요약) 
+(자세한 내용)
+-
+-Research overview (Click here to see details)
+
+<Project Page>
+[description]
+
+[추가할 사항]
+//태그나 분류를 써서 계산 프로젝트/실험 프로젝트, 메인롤인지 서브롤인지 쓰기?
+
+1. CSC
+Research overview
+title: Programmable 
+keywords: out-of-equilibrium / systems chemistry / spatiotemporal / audible sound / Faraday waves / patterns / supramolecular chemistry / self-assembly / materials chemistry
+Spatiotemporal patterns, Out-of-equilibrium systems, Chemical pattern formation, Self-assembly, Dissipative structures.
+
+(내용)
+description: 2-3 문장, 내 역할
+1)
+programmable pattern
+spatiotemperal control of out-of-equilibrium reaction
+stimuli-responsive with external stimuli (audible sound) -> infancy
+programmable spationemporal control of complex chemical patterns in reaction network systems
+synthetic supramolecular systems with lifelike properties
+
+2) 방법/툴 등
+
+3) key findings & insights
+
+4) 자료 링크
+
+2. MPIP
+title: dynamic asymmetry of water hydrogen bonds
+keywords: Chemical physics, Infrared spectroscopy, Molecular dynamics simulations, Liquid dynamics, water hydrogen bonds, non-covalent bond network, Structural Heterogeneity, intermolecular coupling
+
+(내용)
+1) background
+
+2) approach
+
+3) key findings & insights
+
+
+3. Sonlab
+title: Image charge effect on graphene-ionic liquid interface
+keywords: Molecular dynamics simulation / ion adsorption / aqueous(?) interfaces / electrochemical cell / image-charge method polarization
+
+
+
+4. Nanotrio
+
+5. Lignogels
+
+6. 
+
+<Personal>
+-Journalism
+
+
+
+
+
+
 
