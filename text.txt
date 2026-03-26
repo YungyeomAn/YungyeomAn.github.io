@@ -86,8 +86,10 @@ keywords: Chemical physics, Structural Heterogeneity, Infrared spectroscopy,  Mo
 -hydrogen bond network / microscopic structure and dynamics of water molecules 암튼 물 구조 규명의 중요성 (물 사면체 그림) + assymetry 이야기
 물은 다양한 생물학적, 화학적, 물리적 과정의 기반이 되지만, 대부분의 액체와는 다른 독특한 거동을 보인다. 이러한 특성은 강하고 방향성 있는 수소 결합 네트워크에서 기인한다. 전통적인 대칭 사면체 모델만으로는 액체 물의 구조적 이질성을 충분히 설명할 수 없다. 특히, 한 물 분자 내 두 수소 원자가 서로 다른 길이의 수소 결합을 형성할 수 있다는 점에서 물은 비대칭성을 가질 수 있으며, 이는 물의 이상적인 물성들과도 깊은 관련이 있다. 이러한 비대칭성은 시간적으로 요동하는 국소 배위 구조와 수소 결합 강도 간의 상관관계와 밀접하게 연결되어 있다. 이러한 구조적 상관관계는 열적 요동의 영향을 받아 그 공간적 및 시간적 범위가 제한된다. 그러나 이러한 비대칭성의 기원과 수소 결합 길이 간 상관관계에 대한 직접적이고 정량적인 내용과 기원에 관한 연구는 여전히 제한적이다.
 
--루카스 논문 (그 4칸짜리 사진이랑 간단 설명 + 링크)
--그래서 최종 목적(어떤 질문에 대답하고 싶은지)은 뭐냐!
+-루카스 논문 (그 Figure2랑 간단 설명 + 링크)
+2차원 적외선 분광법(2DIR)을 이용한 선행연구에서, 물의 두 O–H 진동 모드 간의 correlation을 cross-peak와 frequency–frequency correlation 형태로 측정하였다. 한 물 분자 내 두 수소 결합이 서로 anti-correlated되어 하나의 강한 결합과 하나의 약한 결합을 형성하는 경향이 있음을 직접적으로 규명하였다. 이는 수소 결합 비대칭성이 단순히 전체 앙상블의 통계적 경향이 아니 분자 내 상호 연관된 구조적 특성임을 시사한다. 
+
+-나의 목적: 시뮬레이션을 통한 anti-correlation의 재현(어떤 조건이나 단계에서 확인되는지? 즉 quantum mechanic적인 건지 뭔지), anti-correlation과 asymmetry의 연관성, anti-correlation의 범위나 조건, (thermal fluctuation과 관련이 있으니까) FTIR을 이용한 온도에 따른 평균적인 네트워크 변화(구조 heterogeneity과 수소결합 네트워크 붕괴/재구성 경향 등).
 
 2) approach
 -Temperature dependant ir spectra
