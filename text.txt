@@ -78,12 +78,14 @@ programmable spationemporal control of complex chemical patterns in reaction net
 synthetic supramolecular systems with lifelike properties
 
 Spatiotemporal pattern formation is a key feature of out-of-equilibrium chemical systems, underlying complex functions in biological and material systems. While artificial chemical and supramolecular systems can generate such patterns, they are typically governed by emergent dynamics, making it difficult to precisely control where and when chemical processes occur.
+In many out-of-equilibrium and supramolecular systems, regulation is achieved using chemically fueled reaction cycles. While these systems enable dynamic behaviors, they typically operate under homogeneous conditions, limiting spatial control. Reaction–diffusion approaches have been explored to introduce spatial heterogeneity; however, such systems are strongly dependent on intrinsic kinetics and boundary conditions, making precise and programmable control difficult.
 Recently, we explored stimuli-responsive approaches using external fields such as audible sound, which can induce fluid vibrations and spatially modulate gas dissolution to form reproducible chemical patterns. However, this strategy is still in its early stages and remains limited in resolution, typically producing only simple domain structures with restricted tunability.
 Thus, a central challenge remains: achieving programmable spatiotemporal control over complex chemical patterns and life-like compartmentalization within a single system.
 
 Physical Basis
 
-Audible sound does not directly interact with molecules at the chemical level, but instead induces mechanical vibrations in fluids. When applied to a liquid interface, these vibrations generate standing wave patterns (Faraday waves), producing spatial variations in fluid motion.
+Sound has traditionally been used in chemistry in the form of ultrasound, where high-frequency acoustic waves induce chemical transformations through cavitation effects. In contrast, audible sound has rarely been considered as a tool for controlling chemical reactions.
+Our group first introduced audible sound as a stimulus for regulating chemical systems in 2020 (링크). Audible sound does not directly interact with molecules at the chemical level, but instead induces mechanical vibrations in fluids. When applied to a liquid interface, these vibrations generate standing wave patterns (Faraday waves), producing spatial variations in fluid motion.
 Such vibration fields influence the dissolution and transport of atmospheric gases (e.g., O₂ and CO₂) across the air–liquid interface, leading to spatially heterogeneous chemical environments. Recent studies have leveraged this principle to control out-of-equilibrium chemical reactions and generate reproducible spatiotemporal patterns.
 However, these approaches have largely relied on single-frequency excitation, limiting the complexity and programmability of the resulting chemical patterns.
 
